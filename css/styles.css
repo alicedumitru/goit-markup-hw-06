@@ -666,7 +666,7 @@ img  {
   border-radius: 4px;
   background-color: var(--buttons-font);
   border: none;
-  color: var(--WHITE);
+  color: var(--background-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -946,7 +946,7 @@ img  {
   }
 
 .modal-window-form-main-text {
-    color: var(--navy-blue-modal);
+    color:  var(--services-font-color);
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -1127,7 +1127,7 @@ img  {
 }
 
 .modal-window-checkbox-input:checked + .checkbox-label .checkbox-span {
-  background-color: var(--buttons-font);
+  background-color: var(--brand-color);
   border: none;
   fill: var(--buttons-bkcolor);
 }
